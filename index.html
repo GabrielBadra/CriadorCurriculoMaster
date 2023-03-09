@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criador Curriculo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="SectionPaiTodos"><section>
+        <header>
+            <div class="headerTitle" id="TitleFix">
+                <a href="https://wa.me/5511987052518?text=Eu%20Quero%20Saber%20Mais%20Sobre%20os%20Produtos" target="_blank" id="TitleFixText"> Lan House <BR> Conectado</a>
+            </div>
+                <div >
+                    <div id="DivValorCurriculo">
+                        <input type="text" placeholder="Palavra-Chave" id="PalavraChave">
+                        <button id="BtnVerificar">Verificar</button> 
+                    </div>
+                        <div id="CadastrarValor">
+                            <input type="number" placeholder="Valor do Curriculo" id="DefineValorCurriculo">
+                            <input type="number" placeholder="Valor Acrecentavel" id="ValorAcrescentavel"> 
+                            <button id="AtualizarCurriculo">Atualizar</button>
+                        </div>
+                </div>
+            <h1 class="headerTitle" id="TitleOne">Criador de Curriculo</h1>
+                <div id="TextCurriculo">
+                    <p class="TextCurriculo">Valor: <span class="ValorCurriculo">5.00</span></p>
+                </div>
+        </header>
+
+        <section id="DisplaySection">
+            <section id="DocumentosPessoais">
+                    <!--Dados Pessoais-->
+                <section class="DocumentosPessoais">
+                    <input type="text" id="Nome" placeholder="Nome e Sobrenome" class="ClasseParaTodos" required>
+                    <input type="text" id="DataNascimento" placeholder="Data de Nascimento" class="ClasseParaTodos" required>
+                    <input type="text" id="cep" placeholder="CEP" class="ClasseParaTodos" required><br>
+                </section>
+                <section class="DocumentosPessoais">
+                    <input type="number" id="NumeroCasa" placeholder="Numero da Casa" class="ClasseParaTodos" required>
+                    <input type="text" id="bairro" placeholder="Bairro" class="ClasseParaTodos" required>
+                    <input type="text" id="localidade" placeholder="Cidade" class="ClasseParaTodos" required><br>
+                </section>
+                <section class="DocumentosPessoais">
+                    <input type="text" id="logradouro" placeholder="Endereço" class="ClasseParaTodos" required>
+                    <input type="text" id="NumeroCelular" placeholder="Numero de Celular" class="ClasseParaTodos" required>
+                    <input type="text" id="Email" placeholder="Email" class="ClasseParaTodos"><br>
+                </section>
+
+
+                <div class="DocumentosPessoais">
+                    <input type="button" value="Verificar Cep" id="VerificarCep">
+                    Tem CNH?<input type="checkbox" id="VerificaCnh">
+                    <button id="btnVerificaCnh">✔</button>
+                    <input type="text" id="ValorCNH" class="ClasseParaTodos" placeholder="CNH" style="display: none;">
+                    <button id="EnviarCnh" style="display: none; padding-top: 5px; padding-bottom: 5px;">Enviar</button>
+                </div>
+
+                        <div class="DocumentosPessoais">
+                            <button id="Proximo">Proximo</button>
+                        </div>
+                    
+            </section>
+
+            <section id="PerfilProfissional">
+                    <!--Objetivo-->
+                    <section class="PerfilProfissional">
+                    <input type="text" id="Objetivo" placeholder="Escreve seu Objetivo" class="ClasseParaTodos" required>
+                    <!--Escolaridade-->
+                    <input type="text" id="Escolaridade" placeholder="Sua Formação"class="ClasseParaTodos" required>
+                    <!--Cursos-->
+                    <input type="text" id="Curso" placeholder="Seus Cursos" class="ClasseParaTodos">
+                    </section>
+                    <section class="PerfilProfissional">
+                    <button id="LimpaObj">Limpar OBJ</button><input type="button" value="Add OBJ" class="BottomAddObj" id="BottomAddObj">
+                    <input type="button" value="Add Cursos" class="BottomAddCursos" id="BottomAddCursos"><button id="LimpaCurso">Limpar Curso</button>
+                    </section>
+                    <!--Experiencia Profissional-->
+                    <section class="PerfilProfissional">
+                    <input type="text" id="Empresa" placeholder="Empresa" class="ClasseParaTodos">
+                    <input type="text" id="Cargo" placeholder="Cargo" class="ClasseParaTodos">
+                    <input type="text" id="Periodo" placeholder="Periodo" class="ClasseParaTodos">
+                    </section>
+                   
+                    <div id="DivCenter">
+                            <section class="PerfilProfissional" id="DivCenter">
+                                <input type="checkbox" id="Check1Emprego">1º Emprego? <input type="button" value="✔" id="button1Emprego" style="color: green; width: 50px; cursor: pointer;">
+                            </section>
+                        <div class="DivCenter">
+                            <button id="LimpaExpe" class="BottomShare">Limpar Experiencia</button><input type="button" value="Add Experiencia" class="BottomShare" id="BottomAddExperiencia">
+                        </div>
+                    </div>
+
+                    <section id="ListasExpeFather">
+                        <p id="TituloLimpaEmpresa" style="margin-top: 0px; font-weight: bold; display: none;">Listas Empresas</p>
+                        <section id="ListasExpe">
+
+                        </section>
+                        <h1 style="font-size: 18px; display: none;" id="TitleListasObj">Listas Objetivo</h1>
+                        <section id="ListasObj">
+                        
+                        </section>
+                        <h1 style="font-size: 18px; display: none;" id="TitleListasCursos">Listas Cursos</h1>
+                        <section id="ListasCursos">
+                        
+
+                        </section>
+
+                        <h1 style="font-size: 18px; display: none; margin-bottom: 1px; margin-top: 2px;" id="TitleListasIdioma">Idioma</h1>
+                        <section id="ListasIdioma">
+                            
+                        </section>
+                    </section>
+                    <div class="ButtonSemExperiencia">
+                        <input type="checkbox" id="SemExperiencia">Sem Experiencia <input type="checkbox" id="SemCurso">Sem Cursos<input type="button" value="X" class="buttonRemove" id="ButtonRemove" style="color: red; margin-left: 10px; border-radius: 10px; border-color: gray;">
+                    </div>
+                    <div id="Botoes">
+                        <p>Tem Idioma?</p>
+                        <input type="checkbox" id="btnIdioma"> <input type="button" id="ButtonIdiomaConfirmar" value="✔"> 
+                        <div id="ArmazenadorInputIdioma">
+                            <input type="text" placeholder="Qual(is)?" id="NoneArmazenador" style="display: none;" class="ClasseParaTodos">
+                            <input type="button" value="Adicionar" id="AdicionarIdioma" style="display: none;">
+                        </div>
+                    </div>
+
+                       <div id="ArmazenadorInputApresen" class="ArmazenadorInputApresen">
+                            Tirar Apresentação? <input type="checkbox" id="checarBoxApre" class="ArmazenadorInputApresen">
+                            <input type="button" id="TirarApresentacao" value="✔" class="ArmazenadorInputApresen">
+                        </div>
+                       
+
+                    
+                    <div id="Botoes">
+                        <div class="Botoes">
+                            <button id="Voltar">Voltar</button>
+                            <button id="ApagarTudo">Apagar Tudo</button>
+                            <button id="Finalizar">Finalizar</button>
+                        </div>
+                    </div>
+            </section>
+        </section>
+        <div>
+            <h1 id="HeaderModelo">Modelo Curriculo</h1>
+            <p id="ComentarioModelo">O Curriculo sera criado em baixo</p>
+        </div>
+        <section id="SectionFather">
+            <section id="SectionValores">
+                <h1 id="NomeValores" style="font-size: 25px; text-align: center;">NomeSobrenome</h1>
+
+                <p style="font-weight: bold; font-size: 18px; margin-bottom: 0px;">Dados Pessoais</p>
+                <hr>
+
+                <p id="DataValores" class="DadosCompar" style="font-size: 15px;">DatadeNascimento</p>
+                    <p id="EnderecoValores" class="DadosCompar" style="font-size: 15px;">Endereço e Numero</p>
+                        <p id="BairroValores" class="DadosCompar" style="font-size: 15px;">Bairro</p>
+                            <p id="CidadeValores" class="DadosCompar" style="font-size: 15px;"></p>
+                        <p id="CepValores" class="DadosCompar" style="font-size: 15px;">CEP</p>
+                        <p id="CnhValores" class="DadosCompar" style="display: none;">CNH</p>
+                    <p id="CelularValores" class="DadosCompar" style="font-size: 15px;">Celular</p>
+                <p id="EmailValores" class="DadosCompar" style="font-size: 15px;"> Email</p>
+
+                <p style="font-weight: bold; font-size: 18px; margin-bottom: 0px;">Objetivo</p>
+                <hr>
+                <p id="ObjetivoValores" style="font-size: 15px;"></p>
+
+                <p style="font-weight: bold; font-size: 18px; margin-bottom: 0px;">Formação Acadêmica</p>
+                <hr>
+                <p id="EscolaridadeValores" style="font-size: 15px;"></p>
+
+                <p style="font-weight: bold; font-size: 18px; margin-bottom: 0px;" id="SumirCurso">Cursos</p>
+                <hr id="linhaCurso">
+                <p id="CursosValores" style="font-size: 15px;"></p>
+
+                <p style="font-weight: bold; font-size: 18px; margin-bottom: 0px; display: none;" id="SumirIdioma">Idioma</p>
+                <hr id="LinhaIdioma" style="display: none;">
+                <p id="IdiomaValores" style="font-size: 15px;"></p>
+
+
+                <p style="font-weight: bold; font-size: 18px; margin-bottom: 0px;" id="SumirExperiencia">Experiencia Profissional</p>
+                <hr id="linhaProfissional">
+                <p id="EmpresaCargoPeriodo" style="font-size:15px;">
+                <p id="Emprego1" style="font-size: 15px; margin-top:5px;"></p></p>
+
+                <div id="SumirApresentacao">
+                    <p style="font-weight: bold; font-size: 18px; margin-bottom: 0px;">Apresentação</p>
+                    <hr style="margin-bottom: 0px;" >
+                    <p style="font-size: 15px; margin-top: 1px;">Prezado (a) avaliador (a) envio meu currículo com intuito que esta empresa
+                    aprecie e se possível possa-me dar oportunidade de fazer parte do quadro de seus funcionários 
+                    numa vaga que esta conceituada empresa julgar capaz de exercê-la se esta oportunidade me
+                    for dada irei compensar com dedicação e coloco-me a disposição para uma possível entrevista de Emprego.</p>
+                </div>
+            </section>
+        </section>
+        <div class="ImprimirSection">
+            <Button id="ImprimirSection">Imprimir</Button>
+        </div>
+    
+        <div id="Footer">
+            <p class="FooterCopy">&copy Lan House Conectados</p>
+            <p class="FooterCopy">Email: gabrielfreitasallves9@gmail.com</p>
+            <p class="FooterCopy">Contato: (11) 98705-2518</p>
+        </div>
+
+<script src="app.js"></script>
+</body>
+</html>

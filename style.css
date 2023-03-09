@@ -1,0 +1,425 @@
+body{
+    background-color: whitesmoke;
+}
+
+#SectionFather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+}
+#SectionValores{
+    visibility: hidden;
+}
+ 
+.DadosCompar{
+    margin-top: 0px;
+    margin-bottom:1px ;
+}
+
+.headerTitle{
+    display: inline-block;
+}
+#FatherImgZap{
+    justify-content:end;
+}
+#DivValorCurriculo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#CadastrarValor{
+    display: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#TitleFix{
+    position: fixed;
+    color: #fff;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.5ms;
+}
+
+#TitleFixText{
+    color: #fff;
+    text-decoration: none;
+}
+
+#TitleOne{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(207, 193, 193);
+}
+
+#TextCurriculo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.ClasseParaTodos{
+    margin-top: 2px;
+    width: 200px;
+    border-radius: 3px;
+    height: 30px;
+
+}
+
+.DocumentosPessoais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PerfilProfissional{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#DivCenter{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+#HeaderModelo{
+    color: rgb(207, 193, 193);
+    margin-bottom: 0px;
+}
+#ComentarioModelo{
+    margin-bottom: 50px;
+}
+#Proximo{
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(191, 191, 245);
+    border-radius: 3px;
+    cursor: pointer;
+}
+#PerfilProfissional{
+    display: none;
+}
+#VerificarCep{
+    cursor: pointer;
+    background-color: rgb(166, 206, 166);
+    border-color: rgb(166, 206, 166);
+    border-radius: 3px;
+    margin-right: 11%;
+    margin-top: 5px;
+    transition: 0.5ms;
+}
+#VerificarCep:hover{
+    background-color: green;
+    border-color: green;
+    color: #fff;
+}
+
+/* Limpa Obj*/
+#LimpaObj{
+    cursor: pointer;
+    background-color: rgb(241, 167, 167);
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 5px;
+    transition: 0.5ms;
+    border-color:rgb(241, 167, 167) ;
+}
+#LimpaObj:hover{
+    background-color: red;
+    border-color: red;
+    color: #fff;
+}
+/*Fim*/
+
+/* Add Objetivo*/
+#BottomAddObj{
+    cursor: pointer;
+    background-color: rgb(165, 221, 165);
+    border-color: rgb(165, 221, 165);
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.5ms;
+}
+#BottomAddObj:hover{
+    background-color: green;
+    border-color: green;
+    color: #fff;
+}
+/*Fim*/
+
+/* limpa curso*/
+#LimpaCurso{
+    cursor: pointer;
+    margin-top: 3px;
+    background-color: rgb(241, 167, 167);
+    border-radius: 3px;
+    border-color: rgb(241, 167, 167);
+    transition: 0.5ms;
+}
+#LimpaCurso:hover{
+    background-color: red;
+    border-color: red;
+    color: #fff;
+}
+/* add Cursos */
+#BottomAddCursos{
+    margin-left: 240px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border-color: rgb(165, 221, 165);
+    cursor: pointer;
+    background-color: rgb(165, 221, 165);
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.5ms;
+}
+#BottomAddCursos:hover{
+    background-color: green;
+    color: #fff;
+    border-color: green;
+}
+/* fim*/
+#BottomAddExperiencia{
+    
+    border-radius: 3px;
+    border-color: rgb(165, 221, 165);
+    background-color: rgb(165, 221, 165);
+    cursor: pointer;
+}
+#BottomAddExperiencia:hover{
+    background-color: green;
+    border-color: green;
+    color: #fff;
+}
+
+/*Limpa Experiencia*/
+#button1Emprego{
+    margin-right: 225px;
+}
+#LimpaExpe{
+    cursor: pointer;
+    background-color:rgb(241, 167, 167) ;
+    border-color: rgb(241, 167, 167);
+    border-radius: 3px;
+    transition: 0.5ms;
+}
+#LimpaExpe:hover{
+    background-color: red;
+    border-color: red;
+    color: #fff;
+}
+/*Fim*/
+
+.ButtonSemExperiencia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#SemCurso{
+    margin-left: 50px;
+}
+
+#Voltar{
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(191, 191, 245);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#Finalizar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(244, 154, 154);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#ApagarTudo{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: red;
+    border-color: black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#Botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Footer{
+    font-weight: bold;
+    padding-top: 20px;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+}
+.FooterCopy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ListasExpeFather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ImprimirSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ImprimirSection{
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: lightblue;
+    border-radius: 5px;
+    border-color: lightblue;
+    transition: 5ms;
+}
+#ArmazenadorInputIdioma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NoneArmazenador{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#AdicionarIdioma{
+    background-color: green;
+    cursor: pointer;
+    border-color: green;
+    border-radius: 5px;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+
+#ArmazenadorInputApresen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+#ImprimirSection:hover{
+    background-color: rgb(194, 194, 250);
+    border-color:rgb(194, 194, 250) ;
+}
+
+@media screen and (max-width:600px){
+    .ClasseParaTodos{
+        width: 120px;
+        height: 30px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 3px;
+    }
+    #VerificarCep{
+        margin-right: 0px;
+    }
+    #LimpaObj{
+        margin-left: 0px;
+    }
+    #BottomAddObj{
+        margin-right: 10px;
+    }
+    #BottomAddCursos{
+        margin-left: 0px;
+    }
+    .Botoes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #ApagarTudo{
+        padding-top: 5px;
+        padding-left: 1px;
+        padding-right: 1px;
+        margin: 2px;
+        width: 100px;
+    }
+    #Finalizar{
+        margin: 2px;
+        width: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #Voltar{
+        margin: 2px;
+        width: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .headerTitle{
+        display: none;
+    }
+    #LimpaExpe{
+        margin: 0px;
+    }
+    #LimpaExpe{
+        padding: 1px;
+        margin-left: 5px;
+    }
+    #BottomAddExperiencia{
+        padding: 1px;
+        margin: 0px;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #button1Emprego{
+        margin-right: 0px;
+    }
+}
